@@ -1,0 +1,27 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.card:hover{
+    opacity: 0.9;
+}
+
+.card.text{
+    text-align: justify;
+}
+
+
+.nav-link{
+    font-size: 800;
+}
+
+
+
+
+
+
+    
+
+
+
