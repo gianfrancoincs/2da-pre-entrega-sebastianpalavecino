@@ -1,10 +1,10 @@
-
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
 }
-.card:hover{
-    opacity: 0.9;
+
+.card:hover {
+  opacity: 0.9;
 }
 
 /*# sourceMappingURL=style.css.map */
