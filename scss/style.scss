@@ -6,7 +6,10 @@
 body{
     font-family: $fuente-principal;
     font-size: $tamanio-fuente;
-    
+}
+
+footer{
+    background:$naranja;
 }
 
 h1{
@@ -18,3 +21,43 @@ h1{
 .card:hover{
     opacity: 0.9;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 20%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+}
+
+@media (max-width: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+
