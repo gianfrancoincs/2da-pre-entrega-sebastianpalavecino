@@ -1,0 +1,11 @@
+{
+  "name": "2da-pre-entrega-sebastianpalavecino",
+  "version": "1.0.0",
+  "description": "tienda pixcell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sebastian palavecino",
+  "license": "ISC"
+}
