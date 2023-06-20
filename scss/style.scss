@@ -1,0 +1,20 @@
+@import"tipografias";
+@import"medidastextos";
+@import"colores";
+@import"dimensiones";
+
+body{
+    font-family: $fuente-principal;
+    font-size: $tamanio-fuente;
+    
+}
+
+h1{
+    font-family: $fuente-principal;
+    color: $negro;
+    font-style: $fuente-estilo;
+}
+
+.card:hover{
+    opacity: 0.9;
+}
