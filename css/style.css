@@ -32,7 +32,7 @@ img {
 
 .row {
   display: flex;
-  padding: 5px;
+  padding: 10px;
   flex-wrap: wrap;
 }
 
