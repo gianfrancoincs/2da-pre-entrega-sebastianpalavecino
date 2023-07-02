@@ -30,14 +30,14 @@ body {
 .card .btn-danger {
   background-color: #ff3333;
   border-color: #ff3333;
-  color: white;
+  color: black;
 }
 .card .btn-danger:hover {
   background-color: red;
   border-color: red;
 }
 .card .btn-danger:hover {
-  color: #e6e6e6;
+  color: black;
 }
 
 footer {

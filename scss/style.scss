@@ -39,7 +39,7 @@ body{
   
     .btn-danger {
       @include customize-card-button($color-danger, $color-danger);
-      @include customize-card-button-text(white);
+      @include customize-card-button-text(black);
     }
   }
   
