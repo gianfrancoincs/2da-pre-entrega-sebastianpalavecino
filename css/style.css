@@ -3,6 +3,43 @@ body {
   font-size: 16px;
 }
 
+.card .btn-primary {
+  background-color: #0073ff;
+  border-color: #0073ff;
+  color: white;
+}
+.card .btn-primary:hover {
+  background-color: #005ccc;
+  border-color: #005ccc;
+}
+.card .btn-primary:hover {
+  color: #e6e6e6;
+}
+.card .btn-success {
+  background-color: #00cc66;
+  border-color: #00cc66;
+  color: white;
+}
+.card .btn-success:hover {
+  background-color: #00994d;
+  border-color: #00994d;
+}
+.card .btn-success:hover {
+  color: #e6e6e6;
+}
+.card .btn-danger {
+  background-color: #ff3333;
+  border-color: #ff3333;
+  color: white;
+}
+.card .btn-danger:hover {
+  background-color: red;
+  border-color: red;
+}
+.card .btn-danger:hover {
+  color: #e6e6e6;
+}
+
 footer {
   background: orange;
 }

@@ -1,0 +1,18 @@
+// color de fondo e iluminacion del boton
+@mixin customize-card-button($background-color, $border-color) {
+    background-color: $background-color;
+    border-color: $border-color;
+    &:hover {
+      background-color: darken($background-color, 10%);
+      border-color: darken($border-color, 10%);
+    }
+  }
+  
+  // Personalizar el color del texto de un botón
+  @mixin customize-card-button-text($color) {
+    color: $color;
+    &:hover {
+      color: darken($color, 10%);
+    }
+  }
+  

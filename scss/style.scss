@@ -1,3 +1,4 @@
+
 @import"tipografias";
 @import"medidastextos";
 @import"colores";
@@ -7,6 +8,41 @@ body{
     font-family: $fuente-principal;
     font-size: $tamanio-fuente;
 }
+
+@mixin customize-card-button($background-color, $border-color) {
+    background-color: $background-color;
+    border-color: $border-color;
+    &:hover {
+      background-color: darken($background-color, 10%);
+      border-color: darken($border-color, 10%);
+    }
+  }
+
+  @mixin customize-card-button-text($color) {
+    color: $color;
+    &:hover {
+      color: darken($color, 10%);
+    }
+  }
+  
+
+.card {
+    .btn-primary {
+      @include customize-card-button($color-primary, $color-primary);
+      @include customize-card-button-text(white);
+    }
+  
+    .btn-success {
+      @include customize-card-button($color-success, $color-success);
+      @include customize-card-button-text(white);
+    }
+  
+    .btn-danger {
+      @include customize-card-button($color-danger, $color-danger);
+      @include customize-card-button-text(white);
+    }
+  }
+  
 
 footer{
     background:$naranja;
@@ -60,4 +96,6 @@ img{
         flex: 100%;
     }
 }
+
+
 
