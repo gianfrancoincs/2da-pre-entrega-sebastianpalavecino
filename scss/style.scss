@@ -212,5 +212,22 @@ footer.quick-links {
   padding: 2rem 0;
 }
 
+ul.list-inline-item:hover{
+  color:$naranja;
+  text-decoration: none;
+}
+
+.navbar-brand:hover{
+  color:$naranja;
+  text-decoration: none;
+}
+
+ul li.dropdown-menu:hover{
+  color:$naranja;
+  text-decoration: none;
+}
+
+
+
 
 

@@ -189,4 +189,19 @@ footer.quick-links {
   padding: 2rem 0;
 }
 
+ul.list-inline-item:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+ul li.dropdown-menu:hover {
+  color: orange;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
