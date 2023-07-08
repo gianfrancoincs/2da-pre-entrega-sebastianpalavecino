@@ -199,7 +199,7 @@ ul.list-inline-item:hover {
   text-decoration: none;
 }
 
-ul li.dropdown-menu:hover {
+.ul li.dropdown-menu:hover {
   color: orange;
   text-decoration: none;
 }
